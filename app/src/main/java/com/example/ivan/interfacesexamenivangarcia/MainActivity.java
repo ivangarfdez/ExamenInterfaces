@@ -55,8 +55,19 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
 
+        //Listener boton aceptar.
+        Button aceptar = (Button) findViewById(R.id.btnSeleccionar);
+        aceptar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Cambiamos de clase.
+                Intent intent = new Intent(getApplicationContext(), Main2.class);
+                startActivity(intent);
+            }
+        });
+            }
 
-    }
+
 
     public void floridaoberta(View button3) throws Exception {
         String link = "http://www.floridaoberta.com";
