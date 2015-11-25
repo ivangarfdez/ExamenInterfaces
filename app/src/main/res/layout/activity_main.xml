@@ -87,7 +87,7 @@
 
     <RelativeLayout
         android:layout_width="178dp"
-        android:layout_height="match_parent"
+        android:layout_height="143dp"
         android:layout_gravity="right">
 
 
@@ -97,19 +97,85 @@
             android:text="FloridaOberta"
             android:id="@+id/button3"
             android:onClick="floridaoberta"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="68dp" />
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Seleccionar"
             android:id="@+id/btnSeleccionar"
-            android:layout_centerVertical="true"
+            android:layout_below="@+id/button3"
             android:layout_alignParentEnd="true" />
 
     </RelativeLayout>
+    <LinearLayout
+        android:layout_width="157dp"
+        android:layout_height="203dp"
+        android:layout_gravity="left">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/scrollView" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:nestedScrollingEnabled="false"
+                android:background="#b9c5c5"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Album 1"
+                    android:id="@+id/textView"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:background="#a80300"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Album 2"
+                    android:id="@+id/textView2"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_below="@+id/textView"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:background="#5ce213"
+                    android:layout_marginBottom="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Album 3"
+                    android:id="@+id/textView3"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/textView2"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:autoText="false"
+                    android:background="#d86c07"
+                    android:layout_marginBottom="5dp" />
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
 
 
 
