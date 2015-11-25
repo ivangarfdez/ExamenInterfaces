@@ -92,9 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Lo cogemos de submenu que hemos creado antes
 
-        //Hay dos opciones
-        //Mostrar
-        //Eliminar
+
         switch (item.getItemId()) {
             case R.id.escribenombre:
                 Toast.makeText(getApplicationContext(), "Copiar", Toast.LENGTH_SHORT).show();
