@@ -111,7 +111,7 @@
     </RelativeLayout>
     <LinearLayout
         android:layout_width="157dp"
-        android:layout_height="203dp"
+        android:layout_height="182dp"
         android:layout_gravity="left">
 
 
@@ -134,7 +134,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="Album 1"
+                    android:text="I"
                     android:id="@+id/textView"
                     android:layout_alignParentTop="true"
                     android:layout_centerHorizontal="true"
@@ -142,36 +142,59 @@
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
                     android:background="#a80300"
-                    android:layout_marginBottom="5dp" />
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="Album 2"
+                    android:text="V"
                     android:id="@+id/textView2"
                     android:gravity="center_vertical|center_horizontal"
                     android:layout_below="@+id/textView"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
                     android:background="#5ce213"
-                    android:layout_marginBottom="10dp" />
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="Album 3"
+                    android:text="N"
                     android:id="@+id/textView3"
                     android:gravity="center_vertical|center_horizontal"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/textView4"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:autoText="false"
+                    android:background="#07cad8"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Á"
+                    android:id="@+id/textView4"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
                     android:layout_below="@+id/textView2"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
                     android:autoText="false"
                     android:background="#d86c07"
-                    android:layout_marginBottom="5dp" />
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp" />
 
             </RelativeLayout>
         </ScrollView>
